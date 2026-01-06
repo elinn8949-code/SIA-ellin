@@ -1,0 +1,95 @@
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+}
+
+.logo{
+  margin-right: 30px;
+}
+
+.menu{
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.menu li{
+  margin-right: 20px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.banner img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(16, 16, 16, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.glow {
+  font-size: 3.5rem;
+  letter-spacing: 3px;
+  text-shadow: 0 0 10px #fff, 0 0 20px #ff2d55;
+  margin-bottom: 15px;
+}
+
+.glow {
+  font-size: 50px;
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #ff00ff;
+}
+
+.footer {
+  background: #000;
+  padding: 15px;
+  margin-top: 40px;
+}
+.datetime {
+    position:absolute;
+    top: 15px;
+    right: 5px;
+    background: #0c0c0c;
+    border: 2px solid #cb0cc8;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #fbfdfa;
+    box-shadow: 0 0 10px rgba(144,255,106,0.4);
+    font-weight: bold;
+    z-index: 10;
+}
